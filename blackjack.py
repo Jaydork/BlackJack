@@ -28,8 +28,8 @@ def main():
     deck = create_deck()
     player_hand = deal_hand_player(deck)
     dealer_hand = deal_hand_dealer(deck)
-    player_score = player_hand.get_score()
-    #while score != 21:
+    print(deck)
+    print(player_hand, dealer_hand)
 
 
 
